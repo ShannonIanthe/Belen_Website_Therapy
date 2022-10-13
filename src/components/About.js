@@ -3,7 +3,10 @@ import '../Styles/main.css'
 
 function About() {
   return (
-    <main>Nunca es exagerado pedir lo que quieres y necesitas</main>
+    <div>
+        <div>Photo of Belen</div>
+        <div>lorem Ipsum</div>
+    </div>
   )
 }
 
