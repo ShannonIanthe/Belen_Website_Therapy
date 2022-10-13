@@ -1,17 +1,31 @@
-import React from 'react'
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import '../Styles/main.css'
 
 function Navbar() {
+  const navRef =useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav")
+  }
+
   return (
-    <div>
-    <div>Belen Dominguez</div>
-    <div>
-    <div>Home</div>
-      <div>About</div>
-      <div>Services</div>
-      <div>Contact</div>
-    </div>
-  </div>
-  )
+    <header>
+      <h3></h3>
+      <nav ref={navRef}>
+        <a href="/#">INICIO</a>
+        <a href="/#">QUIEN SOY</a>
+        <a href="/#">SERVICIOS</a>
+        <a href="/#">CONTACTO</a>
+        <button class="nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes />
+        </button>
+      </nav>
+      <button class="nav-btn" onClick={showNavbar}>
+        <FaBars />
+      </button>
+    </header>
+  );
 }
 
 export default Navbar;

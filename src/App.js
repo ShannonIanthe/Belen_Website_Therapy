@@ -1,13 +1,14 @@
 import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar'
+import About from './components/About'
 
 function App() {
   return (
-    <div>
-<Navbar />
-
-    </div>
+<React.Fragment>
+  <Navbar />
+  <About />
+</React.Fragment>
 
   );
 }
