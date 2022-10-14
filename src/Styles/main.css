@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lato:ital,wght@0,100;0,300;1,100&display=swap');
 * {
   padding: 0px;
   margin: 0;
@@ -8,10 +7,10 @@
 
 /* NAVBAR */
 :root {
-  --mainColor: #689797;
+  --mainColor: rgb(203, 223, 210);
   --mainColorLight: rgba(32, 32, 32, 0.2);
-  --secondaryColor: #689797;
-  --textColor: rgb(92, 92, 92);
+  --secondaryColor: rgb(203, 223, 210);
+  --textColor: rgb(122, 110, 110);
 }
 
 header {
@@ -45,15 +44,46 @@ header .nav-btn {
   font-size: 1.6rem;
 }
 
-/* ABOUT */
-main {
+/* QUOTE */
+.quote1 {
   height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
+  font-family: 'Lato', serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--textColor);
+  background: linear-gradient(to bottom, white 51%, rgb(203, 223, 210) 49%); 
 }
+
+/* ABOUT */
+.about-info {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* SERVICES */
+.services-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.all-services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+}
+
 
 @media only screen and (max-width: 1024px) {
   header .nav-btn {

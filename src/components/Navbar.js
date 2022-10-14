@@ -17,11 +17,11 @@ function Navbar() {
         <a href="/#">QUIEN SOY</a>
         <a href="/#">SERVICIOS</a>
         <a href="/#">CONTACTO</a>
-        <button class="nav-btn nav-close-btn" onClick={showNavbar}>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
       </nav>
-      <button class="nav-btn" onClick={showNavbar}>
+      <button className="nav-btn" onClick={showNavbar}>
         <FaBars />
       </button>
     </header>

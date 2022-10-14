@@ -3,7 +3,7 @@ import '../Styles/main.css'
 
 function About() {
   return (
-    <div>
+    <div className='about-info'>
         <div>Photo of Belen</div>
         <div>lorem Ipsum</div>
     </div>
