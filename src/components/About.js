@@ -5,7 +5,9 @@ function About() {
   return (
     <div className='about-info'>
         <div>Photo of Belen</div>
-        <div>lorem Ipsum</div>
+        <p>Servicio de salud mental
+          “Tejiendo Redes - Psicología Integral”
+          Atención online y presencial</p>
     </div>
   )
 }

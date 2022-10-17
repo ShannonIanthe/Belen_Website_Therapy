@@ -1,14 +1,23 @@
-import React from 'react'
-import { useRef, useEffect } from 'react'
-import CSSRulePlugin from "gsap/CSSRulePlugin"
-import { TimelineLite, Power1, SlowMo } from "gsap"
+import React from "react";
+import { motion } from "framer-motion";
 
 function Quote() {
- 
+
+  const transition = {
+    delay: 0.2
+  }
+
   return (
-    <div 
-     className='quote1'><h1>Respirar, Viva, Sonreir</h1></div>
-  )
+    <div className="quote1">
+      <motion.h1
+        initial={{ opacity: 0, scale: 0.4 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 5 }}
+      >
+        Respirar, Viva, Sonreir
+      </motion.h1>
+    </div>
+  );
 }
 
-export default Quote
+export default Quote;
