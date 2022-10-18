@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lato:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Bodoni+Moda:opsz@6..96&family=EB+Garamond&family=Lato:ital,wght@0,100;0,300;1,100&family=Quicksand:wght@300&display=swap');
 * {
   padding: 0px;
   margin: 0;
@@ -11,6 +11,8 @@
   --mainColorLight: rgba(32, 32, 32, 0.2);
   --secondaryColor: rgb(203, 223, 210);
   --textColor: rgb(122, 110, 110);
+  --mainFont: 'Bodoni Moda', serif;
+  --secondaryFont: 'Quicksand', sans-serif;
 }
 
 nav {
@@ -20,6 +22,7 @@ nav {
   height: 80px;
   padding: 0 2rem;
   color: var(--textColor);
+  font-family: var(--secondaryFont);
   font-size: clamp(.5rem, 2.5vw, 1rem); 
 }
 
@@ -41,7 +44,7 @@ nav a:hover {
   justify-content: center;
   font-size: clamp(1rem, 2.5vw, 2rem); 
   text-align: center;
-  font-family: 'Lato', serif;
+  font-family: var(--mainFont);
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -56,7 +59,12 @@ nav a:hover {
   align-items: center;
   justify-content: space-evenly;
   margin: 0rem 2rem;
+  gap: 1rem;
 }
+.about-info p {
+  font-family: var(--secondaryFont);
+}
+
 
 /* SERVICES */
 .services-container {
@@ -73,14 +81,40 @@ nav a:hover {
   align-items: center;
 }
 
+.all-services h3 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.all-services p {
+  font-family: var(--secondaryFont);
+
+}
+
 .service1,
 .service2,
 .service3 {
-  height: 100%;
+  flex: 1;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+  font-family: var(--mainFont);
 }
 
 .service1 {
-  background-color: bisque;
+  background-color: rgb(204, 198, 198);
+}
+.service2 {
+  background-color: rgb(250, 220, 214);
+}
+
+.service3 {
+  background: rgb(220, 204, 192);
 }
 
 

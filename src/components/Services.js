@@ -3,7 +3,7 @@ import React from 'react'
 function Services() {
   return (
     <div className='services-container'>
-    <h1>Services</h1>
+    <h1></h1>
     <div className='all-services'>
     <div className='service1'>
     <h3>Terapia Individual</h3>

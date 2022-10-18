@@ -7,7 +7,8 @@ function About() {
         <div>Photo of Belen</div>
         <p>Servicio de salud mental
           “Tejiendo Redes - Psicología Integral”
-          Atención online y presencial</p>
+          Atención online y presencial
+          <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit rerum consequatur vero placeat obcaecati possimus at quisquam, ut veritatis molestias! </p>
     </div>
   )
 }
