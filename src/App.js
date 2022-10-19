@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Quote from './components/Quote'
 import Services from './components/Services'
+import Feedback from './components/Feedback'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
   <Quote />
   <About />
   <Services />
+  <Feedback />
+  <Contact />
 </React.Fragment>
 
   );
