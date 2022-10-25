@@ -24,7 +24,7 @@ method='POST'>
   </div>
 </div>
 <div className='form-group'>
-  <textarea placeholder='Tu Mensaje' className='form-control' name='mensaje' rows={10} columns={20} required></textarea>
+  <textarea placeholder='Tu Mensaje' className='form-control' name='mensaje' rows={10} required></textarea>
 </div>
 <button type='submit' className='submit-button'>Enviar</button>
 
