@@ -1,42 +1,36 @@
-import React from "react";
+import React from 'react'
+import {useState} from 'react'
 
 function Feedback() {
-  var quotes = [
-    '"Me no se."\n',
-    '"Qué hay que hacer?!"\n',
-    '"Me no se."\n',
-    '"Qué hay que hacer?!"\n',
+
+  const Myarray = [
+    {
+      quote: ' lorem10  Well, Ted, like I said the last time happen again ',
+    },
+    {
+      quote: ' lorem120hf jdksj jfklds kljfkldsa  Well, Ted, like I said the last time happen again ',
+    },
+    {
+      quote: ' jfdks utieowut nvmc,, like I said the last time happen again ',
+    }   
   ];
 
-  Math.floor(Math.random() * 4);
-  var randomNumber = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quotes").innerHTML = quotes[randomNumber];
-  function newQuote() {
-    var randomNumber = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quotes").innerHTML = quotes[randomNumber];
-  }
 
-  return (
-    <div>
-      <div className="quote">
-        <blockquote className="text">
-          <i id="quotes">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            impedit maiores quod explicabo quidem in blanditiis earum nostrum
-            culpa eligendi.
-          </i>
-        </blockquote>
-      </div>
+  const [index, setIndex] = useState(0) //Setting 1st quote as default
 
-      <footer class="footer">
-        <button>
-          <a class="btn" onclick="newQuote()">
-            Next quote
-          </a>
-        </button>
-      </footer>
-    </div>
-  );
+function changeQuote() {
+  let newIndex = Math.floor(Math.random() * (Myarray.length -0) +0 ); //now on every click setting a random indexbetween 0 and quotes array length (quoates array length is excluded) 
+setIndex(newIndex);
 }
 
-export default Feedback;
+  return (
+    <div className='quote-container'>
+    <p>{Myarray[index].quote}</p>
+
+    <button onClick={changeQuote}>Change</button>
+
+    </div>
+  )
+}
+
+export default Feedback
