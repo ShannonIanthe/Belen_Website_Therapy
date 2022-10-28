@@ -54,10 +54,10 @@ nav a:hover {
 
 /* ABOUT */
 .about-info {
-  height: 70vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 4rem 10rem;
 }
 .about-info p {
   font-family: var(--secondaryFont);
@@ -70,16 +70,8 @@ nav a:hover {
 }
 
 .belu-picture {
-  height: 20rem;
+  height: 14rem;
   border-radius: 10px;
-  margin: 1rem 1rem;
-}
-
-.col1,
-.col2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .name h1{
@@ -95,7 +87,6 @@ nav a:hover {
 
 /* SERVICES */
 .services-container {
-  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,6 +121,7 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   gap: 3rem;
+  padding: .8rem;
   font-family: var(--mainFont);
 }
 
@@ -144,16 +136,24 @@ nav a:hover {
   background: rgb(220, 204, 192);
 }
 
-/* FEEDBACK */
+/* TESTIMONIALS */
 .quote-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   font-family: var(--mainFont);
   font-size: 2.5rem;
   text-align: center;
+  gap: 1.5rem;
+  margin: .5rem;
+  color: rgb(80, 77, 77);
+}
+
+.arrow-btn {
+  cursor: pointer;
+  color: gray;
 }
 
 /* CONTACT */
@@ -161,8 +161,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center©;
-  height: 60vh;
+  justify-content: center;
+  height: 80vh;
   background-color: var(--mainColor);
 }
 
@@ -222,9 +222,33 @@ button {
 }
 
 .icon:hover {
-  color: blue;
+  color: rgb(147, 180, 213);
 }
 
 button {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem;
+    gap: 2rem;
+  }
+  .name,
+  .title {
+    text-align: center;
+  }
+  .all-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service1,
+  .service2,
+  .service3 {
+    padding: 3rem;
+  }
 }

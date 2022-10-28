@@ -8,7 +8,7 @@ function Contact() {
   return (
     
     <div className='contact-me'>
-    <h1>Contact Me</h1>
+    <h1>Contáctame</h1>
 
 <form target='_blank'
 action='https://formsubmit.co/your@email.com'
@@ -16,10 +16,10 @@ method='POST'>
 <div className='form-group'>
 <div className='form-row'>
   <div className='col'>
-    <input type='text' name='name' className='form-control' placeholder='Full Name' required />
+    <input type='text' name='name' className='form-control' placeholder='Nombre Completo' required />
   </div>
   <div className='col'>
-  <input type='email' name='email' className='form-control' placeholder='Email Address' required />
+  <input type='email' name='email' className='form-control' placeholder='Correo Electrónico' required />
   </div>
   </div>
 </div>
