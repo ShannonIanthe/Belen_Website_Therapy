@@ -5,7 +5,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 function Feedback() {
   const Myarray = [
     {
-      quote: " 'lorem10  Well, Ted, like I said the last time happen again' ",
+      quote: " 'Desde la primera sesión, Mark ayudó a identificar tanto los problemas clave como las estrategias para abordarlos. Igualmente importante, he ayudado a poner los problemas en perspectiva, lo que los hizo sentir más manejables y también menos negativos en general.' ",
     },
     {
       quote:
