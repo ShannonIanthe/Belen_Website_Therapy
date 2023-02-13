@@ -16,10 +16,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Front End Developer Portfolio Website
+Landing Page for Client's Business
 
 UX / UI Design:
-* Design replicated from <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef">Frontendmentor.io</a>
+* Unique Design and Layout
 * Aesthetic: soft, delicate, relaxing
 * Main Colors: 
 - ![#fadcd6](https://placehold.co/15x15/fadcd6/fadcd6.png) `#fadcd6`
