@@ -1,3 +1,91 @@
+
+<!-- PROJECT-->
+<br />
+<div align="center">
+  <a href="https://belen-dominguez.vercel.app/"  target="_blank">
+  </a>
+
+  <h3 align="center">React Therapy Landing Page</h3>
+
+  <p align="center">
+    Therapy Portfolio
+    <br />
+    <a href="https://belen-dominguez.vercel.app/"  target="_blank">View Demo</a>
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+Front End Developer Portfolio Website
+
+UX / UI Design:
+* Design replicated from <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef">Frontendmentor.io</a>
+* Aesthetic: soft, delicate, relaxing
+* Main Colors: 
+- ![#fadcd6](https://placehold.co/15x15/fadcd6/fadcd6.png) `#fadcd6`
+- ![#cbdfd2](https://placehold.co/15x15/cbdfd2/cbdfd2.png) `#cbdfd2`
+- ![#7a6e6e](https://placehold.co/15x15/7a6e6e/7a6e6e.png) `#7a6e6e`
+- ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) `#ffffff`
+* Simple fonts with different weights for Desktop and mobile version
+
+* Main Fonts from Google Fonts: 
+-  'Bodoni Moda', serif;
+-  'Quicksand', sans-serif;
+
+
+
+### Built With
+
+* HTML
+* CSS
+* Reactjs
+* JSX
+* Host: Vercel
+
+## What did I learn:
+* I learned :root the CSS pseudo-class
+* I used :root to declare global CSS variables for the colors and fonts
+
+## What problem does it solve?
+* Made CSS easier and faster to write and maintain
+
+
+
+<!-- Project View -->
+## Project View
+<h3>Desktop View</h3>
+
+![therapypage](https://user-images.githubusercontent.com/61018008/218473746-0975bc12-6a72-4455-8077-f85befdc179f.png)
+![Screen Shot 2023-02-13 at 2 47 06 PM](https://user-images.githubusercontent.com/61018008/218475195-13bfc14a-8c32-44e9-833d-04dd6342b00f.png)
+![Screen Shot 2023-02-13 at 2 47 14 PM](https://user-images.githubusercontent.com/61018008/218475198-8655a91e-91d0-404c-b1a2-eb1287314c50.png)
+
+## Mobile View
+![Screen Shot 2023-02-13 at 2 47 48 PM](https://user-images.githubusercontent.com/61018008/218474981-ebc386de-e3fa-456d-b81d-e5e2af275745.png)
+![Screen Shot 2023-02-13 at 2 47 31 PM](https://user-images.githubusercontent.com/61018008/218475005-7daba210-68d1-4670-9854-f63f51d85ec3.png)
+
+
+<!-- CONTACT -->
+## Contact
+
+Linkedin: <a href="https://www.linkedin.com/in/shannon-mettry/"  target="_blank">Shannon Mettry</a>
+
+<a href="https://github.com/ShannonIanthe/Belen_Website_Therapy"  target="_blank"> Source Code </a>
+
+<a href="https://belen-dominguez.vercel.app/"  target="_blank">Website Link</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
